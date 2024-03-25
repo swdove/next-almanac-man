@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
-export default function Home() {
+export default function Epk() {
   return (
     <div className="container">
       <Head>
@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Almanac Man" />
+        <Header title="EPK" />
         <p className="description">
-          <a href="/shows">Shows</a>
+            Epk goes here.
         </p>
       </main>
 
