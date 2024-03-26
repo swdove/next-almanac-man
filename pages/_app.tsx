@@ -2,17 +2,17 @@ import type { AppProps } from 'next/app'
 import React from 'react'
 import { Montserrat } from 'next/font/google'
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-montserrat',
+})
+ 
  
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
-    <style jsx global>{`
-      html {
-        font-family: ${montserrat.style.fontFamily};
-      }
-    `}</style>
-  <Component {...pageProps} />
-  </>
+    <main className={`${montserrat.className} font-sans`}>
+      <Component {...pageProps} />
+    </main>
   )
 }

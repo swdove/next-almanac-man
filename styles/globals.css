@@ -10,7 +10,10 @@ body {
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
     font-family: var(--font-montserrat);
     text-transform: capitalize;
-    background-image: url('../public/terrain.jpg');
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ), url('../public/terrain.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color:#fafafa;
@@ -46,4 +49,6 @@ code {
 
 h1 {
   font-size: 40px;
+  font-family: var(--font-montserrat);
+  /* font-family: 'Courier New', Courier, monospace; */
 }
