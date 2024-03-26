@@ -100,7 +100,7 @@ export default function Press() {
             <h2 className="text-2xl pt-20 pb-10">Live Video</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/eDLyUmN3hkA?si=wyF3ebx5iMqD1jXL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             <h2 className="text-2xl pt-20 pb-10">Spotify</h2>
-            <iframe className="w-4/5" src="https://open.spotify.com/embed/album/23zXWuY5oAMUCbJG9npFns?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe className="w-4/5" src="https://open.spotify.com/embed/album/23zXWuY5oAMUCbJG9npFns?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" allowFullScreen></iframe>
             <h2 className="text-2xl pt-20 pb-10">Bandcamp</h2>
             <iframe src="https://bandcamp.com/EmbeddedPlayer/album=606013730/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://almanacman.bandcamp.com/album/for-your-cause">For Your Cause by Almanac Man</a></iframe>
           </main>
