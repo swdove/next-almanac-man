@@ -15,11 +15,14 @@ export default function Page() {
         <div className="container">
     
           <main>
-            <Image src={logo} width={500} height={200} alt="band logo" />
-            <h1 className="text-3xl font-bold">TERRAIN: 5.17.24</h1>
+            <a href="/">
+                <Image src={logo} width={500} height={200} alt="band logo" />
+            </a>
+            {/* <h1 className="text-3xl">TERRAIN: 5.17.24</h1> */}
             <p className="description">
               <a href="https://almanacman.bandcamp.com/"> MUSIC</a> | <a href="/shows">SHOWS</a> | <a href="/press">PRESS</a>
             </p>
+            <h1 className="text-3xl pt-20">TERRAIN: 5.17.24</h1>
             
           </main>
     
