@@ -43,7 +43,13 @@ export default function Press() {
             <h2 className="text-2xl pb-10">Logo PNGs</h2>
             <Image src={logoDistressed} width={500} height={200} alt="band logo distressed" />
             <Image src={logoUndistressed} width={500} height={200} alt="band logo undistressed" />
-            <h2 className="text-2xl pb-10">Quotes</h2>
+
+            <h2 className="text-2xl pb-10">Press</h2>
+            <a href="https://ghettoblastermagazine.com/features/song-premiere/almanac-man-lotusland-and-arrakis/">
+              Ghettoblaster Magazine Song Premiere: Almanac Man, "Lotusland" and "Arrakis"
+            </a>
+
+            <h2 className="text-2xl pt-20 pb-10">Quotes</h2>
             <p className="w-3/5 text-center text-balance text-slate-500 dark:text-slate-400">
               "Almanac Man is load-bearing, twin vocal, double-shot espresso post 
               noise from Denver. Is that it? Is that all? Not really. Born out of 
