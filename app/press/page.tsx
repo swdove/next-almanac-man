@@ -40,16 +40,23 @@ export default function Press() {
           <Header />
           <main>
             <h1 className="text-3xl pb-10">Press Kit</h1>
-            <h2 className="text-2xl pb-10">Logo PNGs</h2>
-            <Image src={logoDistressed} width={500} height={200} alt="band logo distressed" />
-            <Image src={logoUndistressed} width={500} height={200} alt="band logo undistressed" />
 
-            <h2 className="text-2xl pb-10">Press</h2>
+            <a href="https://drive.google.com/uc?export=download&id=1lb8leqqrapIwc4JoVtDwtn6DurfagmrR">
+              <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full">Promo Asset ZIP Download</button>
+            </a>
+
+            <h2 className="text-2xl pt-20 pb-10 underline">Logo PNGs</h2>
+            <div className="columns-2">
+              <Image src={logoDistressed} width={250} height={100} alt="band logo distressed" />
+              <Image src={logoUndistressed} width={250} height={100} alt="band logo undistressed" />
+            </div>
+
+            <h2 className="text-2xl pb-10 underline">Press</h2>
             <a href="https://ghettoblastermagazine.com/features/song-premiere/almanac-man-lotusland-and-arrakis/">
               Ghettoblaster Magazine Song Premiere: Almanac Man, "Lotusland" and "Arrakis"
             </a>
 
-            <h2 className="text-2xl pt-20 pb-10">Quotes</h2>
+            <h2 className="text-2xl pt-20 pb-10 underline">Quotes</h2>
             <p className="w-3/5 text-center text-balance text-slate-500 dark:text-slate-400">
               "Almanac Man is load-bearing, twin vocal, double-shot espresso post 
               noise from Denver. Is that it? Is that all? Not really. Born out of 
@@ -75,22 +82,21 @@ export default function Press() {
                 is about as modern as you get). I dig this band and you should check out 
                 'inco-habitant' for some pummeling desperation"</p>
                 <span className="text-white italic pt-5"> - Jeff Helland, No Coast Fest</span>
-            <h2 className="text-2xl pt-20 pb-10">Bio</h2>
+            <h2 className="text-2xl pt-20 pb-10 underline">Bio</h2>
             <p className="w-3/5 text-center text-balance text-slate-500 dark:text-slate-400">
               Almanac Man formed in 2020 when Denver, CO post-hardcore heroes Laurium folded, prompting guitarist Brian Dooley (ex-Tigon) and bassist Nick Holtz to team up with drummer and recent Chicago ex-pat Scott Picco (ex-Bear Claw), forming a noise rock trio that fused their former band's detuned abrasion with twin vocals and odd meters. Sidelined from live performance by a world-historic pandemic, they put their heads down and recorded their debut LP - 2022's FOR YOUR CAUSE, 27 minutes of raw-wound intensity. Once recording wrapped, Holtz departed and the band added Sean Dove on bass. This new iteration supported the record with fierce live shows and a tour to Denton, TX's illustrious No Coast Fest in 2022, performing alongside such bands as Protomarytr, Metz, Chat Pile, Young Widows and Ken Mode. In 2023, Almanac Man played the inaugural Ghost Canyon Fest in their hometown, joining Big | Brave, Pile’s Rick Maguire and many others. 2024 brings the release of their second full-length on The Ghost Is Clear, TERRAIN, a meditation on loss, futility and avarice. Recorded in Ft. Collins, CO at the famous Blasting Room by Felipe Patino of Green Door Recordings and mixed by Anti-Sleep's Scott Evans (Kowloon Walled City), TERRAIN brings more melody and experimentation into the pummeling chaos. Prepare your ears.
             </p>
-            <h2 className="text-2xl pt-20 pb-10">Images</h2>
+            <h2 className="text-2xl pt-20 pb-10 underline">Images</h2>
             <Image src={img1} width={300} height={300} alt="Almanac Man live @ Hi-Dive" />
             <div className="columns-2">
             <Image src={img3} width={300} height={300} alt="Almanac Man live @ Hi-Dive" />
             <Image src={img4} width={300} height={300} alt="Casual promo shot" />
             </div>
-            <h2 className="text-2xl pt-20 pb-10">Live Video</h2>
+            <h2 className="text-2xl pt-20 pb-10 underline">Live Video</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/eDLyUmN3hkA?si=wyF3ebx5iMqD1jXL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            <h2 className="text-2xl pt-20 pb-10">Spotify</h2>
-            <iframe className="w-4/5" src="https://open.spotify.com/embed/album/23zXWuY5oAMUCbJG9npFns?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" allowFullScreen></iframe>
-            <h2 className="text-2xl pt-20 pb-10">Bandcamp</h2>
-            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=606013730/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://almanacman.bandcamp.com/album/for-your-cause">For Your Cause by Almanac Man</a></iframe>
+            <h2 className="text-2xl pt-20 pb-10 underline">Streaming</h2>
+            <iframe width="350" height="470" src="https://bandcamp.com/EmbeddedPlayer/album=3364382116/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://almanacman.bandcamp.com/album/terrain">Terrain by Almanac Man</a></iframe>
+            <iframe className="pt-20" src="https://open.spotify.com/embed/album/7zZ2hSL5MAfawDWR0puO73?utm_source=generator&theme=0" width="50%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </main>
     
           <Footer />

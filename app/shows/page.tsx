@@ -6,7 +6,7 @@ const shows = [
   { 
     key: 'SAT 3.30.24',
     location: 'Mutiny Information Cafe - Denver, CO',
-    with: 'Ed Hochuli',
+    with: 'Ed Hochuli (PA)',
     link: 'https://www.facebook.com/events/299657423135663?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22event_aggregate%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1711370485280508&notif_t=event_aggregate&ref=notif'
   },
   {
