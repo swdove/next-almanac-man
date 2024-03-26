@@ -1,5 +1,6 @@
 'use client';
 import React from "react";
+import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Image from 'next/image'
 import { Gallery } from "react-grid-gallery";
@@ -33,30 +34,12 @@ const images = [
   },
 ];
 
-
-const images2 = [
-  {
-     original: {img1},
-     thumbnail: {img1},
-  },
-  {
-    original: {img2},
-    thumbnail: {img2},
-  },
-  {
-    original: {img3},
-    thumbnail: {img3},
-  },
-];
-// const imageMap = images.map(img => (
-//   <Image src={img.src} width={img.width} height={img.height} alt="band logo" />
-// ));
-
 export default function Press() {
     return (
         <div className="container">
+          <Header />
           <main>
-            <h1 className="text-3xl pt-20 pb-10">Press Kit</h1>
+            <h1 className="text-3xl pb-10">Press Kit</h1>
             <h2 className="text-2xl pb-10">Logo PNGs</h2>
             <Image src={logoDistressed} width={500} height={200} alt="band logo distressed" />
             <Image src={logoUndistressed} width={500} height={200} alt="band logo undistressed" />
@@ -86,12 +69,11 @@ export default function Press() {
                 is about as modern as you get). I dig this band and you should check out 
                 'inco-habitant' for some pummeling desperation"</p>
                 <span className="text-white italic pt-5"> - Jeff Helland, No Coast Fest</span>
-            <h1 className="text-3xl pt-20 pb-10">Bio</h1>
+            <h2 className="text-2xl pt-20 pb-10">Bio</h2>
             <p className="w-3/5 text-center text-balance text-slate-500 dark:text-slate-400">
               Almanac Man formed in 2020 when Denver, CO post-hardcore heroes Laurium folded, prompting guitarist Brian Dooley (ex-Tigon) and bassist Nick Holtz to team up with drummer and recent Chicago ex-pat Scott Picco (ex-Bear Claw), forming a noise rock trio that fused their former band's detuned abrasion with twin vocals and odd meters. Sidelined from live performance by a world-historic pandemic, they put their heads down and recorded their debut LP - 2022's FOR YOUR CAUSE, 27 minutes of raw-wound intensity. Once recording wrapped, Holtz departed and the band added Sean Dove on bass. This new iteration supported the record with fierce live shows and a tour to Denton, TX's illustrious No Coast Fest in 2022, performing alongside such bands as Protomarytr, Metz, Chat Pile, Young Widows and Ken Mode. In 2023, Almanac Man played the inaugural Ghost Canyon Fest in their hometown, joining Big | Brave, Pile’s Rick Maguire and many others. 2024 brings the release of their second full-length on The Ghost Is Clear, TERRAIN, a meditation on loss, futility and avarice. Recorded in Ft. Collins, CO at the famous Blasting Room by Felipe Patino of Green Door Recordings and mixed by Anti-Sleep's Scott Evans (Kowloon Walled City), TERRAIN brings more melody and experimentation into the pummeling chaos. Prepare your ears.
             </p>
             <h2 className="text-2xl pt-20 pb-10">Images</h2>
-            {/* {imageMap} */}
             <Image src={img1} width={300} height={300} alt="Almanac Man live @ Hi-Dive" />
             <div className="columns-2">
             <Image src={img3} width={300} height={300} alt="Almanac Man live @ Hi-Dive" />
