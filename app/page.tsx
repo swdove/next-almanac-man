@@ -6,7 +6,7 @@ import { Metadata } from 'next'
 import vinyl from '../public/terrain-vinyl.jpg'
 
 export const metadata: Metadata = {
-    title: 'Almanac Man',
+    title: 'Almanac Man | Home',
   }
 
 export default function Page() {

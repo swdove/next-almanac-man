@@ -1,5 +1,5 @@
-'use client';
 import React from "react";
+import { Metadata } from 'next'
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Image from 'next/image'
@@ -11,6 +11,10 @@ import img1 from '../../public/almanac2.jpg'
 import img2 from '../../public/IMG_2711.png'
 import img3 from '../../public/IMG_2721.png'
 import img4 from '../../public/IMG_3054.png'
+
+export const metadata: Metadata = {
+  title: 'Almanac Man | Press Kit',
+}
 
 const images = [
   {
