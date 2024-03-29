@@ -18,7 +18,7 @@ const shows = [
     key: 'FRI 4.19.24',
     location: 'Skylark Lounge - Denver, CO',
     with: 'Traindodge (OK) | Self Evident (MN)',
-    link: 'https://www.facebook.com/events/299657423135663?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22event_aggregate%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1711370485280508&notif_t=event_aggregate&ref=notif'
+    link: 'https://www.eventbrite.com/e/traindodgeself-evidentalmanac-man-tickets-821755582067?aff=oddtdtcreator'
   },
   { 
     key: 'THU 5.16.24',
@@ -26,19 +26,38 @@ const shows = [
     with: 'Museum Of Light (WA) | Voideater | Abandons',
     link: ''
   },
+  {
+    key: 'FRI 5.24.24',
+    location: 'The Burlington - Chicago, IL',
+    with: 'Djunah | Electric Hawk | Nonagon',
+    link: ''
+  },
+  {
+    key: 'SAT 5.25.24',
+    location: 'TBD - Madison, WI',
+    with: '',
+    link: ''
+  },
   { 
     key: 'SUN 5.26.24',
-    location: "CATERWAUL FEST - Palmer's Bar - Minneapolis, MN",
+    location: "CATERWAUL FEST @ Palmer's Bar - Minneapolis, MN",
     with: 'J. Robbins | GASWAR + more',
-    link: 'https://www.ticketstripe.com/caterwaul2023'
-  }
+    link: 'https://ticketstripe.com/2024caterwaul'
+  },
+  {
+    key: 'TUE 5.27.24',
+    location: 'Farewell - Kansas City, MO',
+    with: '',
+    link: ''
+  },
 ]
 
 const showMap = shows.map(show => (
   <tr>
     <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.key}</td>
     <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.location}</td>
-    <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">w/{show.with}</td>
+    <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.with ? `w/${show.with}` : ''}</td>
+    <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.link ? <a href={show.link} target="_blank"><button>Link</button></a> : ''}</td>
   </tr>
 ));
 
