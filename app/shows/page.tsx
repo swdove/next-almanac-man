@@ -28,7 +28,7 @@ const shows = [
   },
   {
     key: 'SAT 5.25.24',
-    location: "Madison, WI - Mickey's Tavern",
+    location: "Madison, WI - The Wisco",
     with: 'Corridoré | Daughters of St. Crispin',
     link: ''
   },
@@ -39,7 +39,7 @@ const shows = [
     link: 'https://ticketstripe.com/2024caterwaul'
   },
   {
-    key: 'TUE 5.27.24',
+    key: 'TUE 5.28.24',
     location: 'Farewell - Kansas City, MO',
     with: 'Nästy Vömmit | Joust',
     link: ''
