@@ -11,7 +11,8 @@ const shows = [
   {
     key: 'FRI 9.27.24',
     location: 'Squire Lounge - Denver, CO',
-    with: 'Brass Tags | Chap | Replica City'
+    with: 'Brass Tags | Chap | Replica City',
+    link: ''
   }
 ]
 
