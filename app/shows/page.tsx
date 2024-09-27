@@ -9,42 +9,51 @@ export const metadata: Metadata = {
 
 const shows = [
   {
-    key: 'FRI 4.19.24',
-    location: 'Skylark Lounge - Denver, CO',
-    with: 'Traindodge (OK) | Self Evident (MN)',
-    link: 'https://www.eventbrite.com/e/traindodgeself-evidentalmanac-man-tickets-821755582067?aff=oddtdtcreator'
-  },
-  { 
-    key: 'THU 5.16.24',
-    location: 'RELEASE SHOW @ 7th Circle Music Collective - Denver, CO',
-    with: 'Museum Of Light (WA) | Voideater | Abandons',
-    link: ''
-  },
-  {
-    key: 'FRI 5.24.24',
-    location: 'The Burlington - Chicago, IL',
-    with: 'Djunah | Electric Hawk | Nonagon',
-    link: ''
-  },
-  {
-    key: 'SAT 5.25.24',
-    location: "Madison, WI - The Wisco",
-    with: 'Corridoré | Daughters of St. Crispin',
-    link: ''
-  },
-  { 
-    key: 'SUN 5.26.24',
-    location: "CATERWAUL FEST @ Palmer's Bar - Minneapolis, MN",
-    with: 'J. Robbins | GASWAR + more',
-    link: 'https://ticketstripe.com/2024caterwaul'
-  },
-  {
-    key: 'TUE 5.28.24',
-    location: 'Farewell - Kansas City, MO',
-    with: 'Nästy Vömmit | Joust',
-    link: ''
-  },
+    key: 'FRI 9.27.24',
+    location: 'Squire Lounge - Denver, CO',
+    with: 'Brass Tags | Chap | Replica City'
+  }
 ]
+
+
+// const shows = [
+//   {
+//     key: 'FRI 4.19.24',
+//     location: 'Skylark Lounge - Denver, CO',
+//     with: 'Traindodge (OK) | Self Evident (MN)',
+//     link: 'https://www.eventbrite.com/e/traindodgeself-evidentalmanac-man-tickets-821755582067?aff=oddtdtcreator'
+//   },
+//   { 
+//     key: 'THU 5.16.24',
+//     location: 'RELEASE SHOW @ 7th Circle Music Collective - Denver, CO',
+//     with: 'Museum Of Light (WA) | Voideater | Abandons',
+//     link: ''
+//   },
+//   {
+//     key: 'FRI 5.24.24',
+//     location: 'The Burlington - Chicago, IL',
+//     with: 'Djunah | Electric Hawk | Nonagon',
+//     link: ''
+//   },
+//   {
+//     key: 'SAT 5.25.24',
+//     location: "Madison, WI - The Wisco",
+//     with: 'Corridoré | Daughters of St. Crispin',
+//     link: ''
+//   },
+//   { 
+//     key: 'SUN 5.26.24',
+//     location: "CATERWAUL FEST @ Palmer's Bar - Minneapolis, MN",
+//     with: 'J. Robbins | GASWAR + more',
+//     link: 'https://ticketstripe.com/2024caterwaul'
+//   },
+//   {
+//     key: 'TUE 5.28.24',
+//     location: 'Farewell - Kansas City, MO',
+//     with: 'Nästy Vömmit | Joust',
+//     link: ''
+//   },
+// ]
 
 const showMap = shows.map(show => (
   <tr>
