@@ -16,8 +16,8 @@ const shows = [
   },
   {
     key: 'SAT 6.28.25',
-    location: 'Mutiny Information Cafe - Englewood, CO',
-    with: 'Elephant Rifle | Gaythiest | Chew Thru',
+    location: 'Afternoon show @ Mutiny Information Cafe - Englewood, CO',
+    with: 'The Nervous',
     link: ''
   },
   {
