@@ -100,7 +100,7 @@ export default function Press() {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/eDLyUmN3hkA?si=wyF3ebx5iMqD1jXL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             <h2 className="text-2xl pt-20 pb-10 text-slate-500 dark:text-slate-400">Streaming</h2>
             <iframe width="350" height="470" src="https://bandcamp.com/EmbeddedPlayer/album=3364382116/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://almanacman.bandcamp.com/album/terrain">Terrain by Almanac Man</a></iframe>
-            <iframe className="pt-20" src="https://open.spotify.com/embed/album/7zZ2hSL5MAfawDWR0puO73?utm_source=generator&theme=0" width="50%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe className="pt-20" src="https://open.spotify.com/embed/album/2jgrhnO9p5gUWifBATdLjI?utm_source=generator&theme=0" width="50%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           </main>
     
           <Footer />
