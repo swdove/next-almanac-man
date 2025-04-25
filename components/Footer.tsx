@@ -17,7 +17,7 @@ export default function Footer() {
           </svg>
         </a>
         </div>
-        <p className='pl-20'>&copy; 2024 ALMANAC MAN</p>
+        <p className='pl-20'>&copy; 2025 ALMANAC MAN</p>
       </footer>
     </>
   )
