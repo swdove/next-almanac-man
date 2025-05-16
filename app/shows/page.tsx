@@ -20,6 +20,18 @@ const shows = [
     with: 'The Nervous',
     link: ''
   },
+  {    
+    key: 'FRI 8.8.25',
+    location: 'Triple Nickel Tavern - Colorado Springs, CO',
+    with: 'Burning Sister',
+    link: ''
+  },
+  {    
+    key: 'SAT 8.9.25',
+    location: 'Goathead Collective - Taos, NM',
+    with: 'Burning Sister',
+    link: ''
+  },
   {
     key: '8.22 - 8.24.25',
     location: 'GHOST CANYON FEST: Skylark Lounge & Hi-Dive - Denver, CO',
