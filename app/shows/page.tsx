@@ -16,8 +16,8 @@ const shows = [
   },
   {
     key: 'SAT 09.27.25',
-    location: 'Mutiny Information Cafe = Englewood, CO',
-    with: '',
+    location: 'Tour Kickoff: Mutiny Information Cafe - Englewood, CO',
+    with: 'TBD',
     link: ''
   },
   {
