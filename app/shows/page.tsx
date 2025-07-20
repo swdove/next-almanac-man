@@ -13,7 +13,7 @@ const shows = [
    with: 'Tiny Dino',
    link: ''},
    {   key: 'THU 10.02.25',
-    location: 'Slice Of Life Pizza = Tacoma, WA',
+    location: 'Slice Of Life Pizza - Tacoma, WA',
     link: ''},
     {   key: 'FRI 10.03.25',
       location: 'The Kraken Bar & Lounge ',
