@@ -8,36 +8,21 @@ export const metadata: Metadata = {
 }
 
 const shows = [
-  {
-    key: 'FRI 5.23.25',
-    location: 'Skylark Lounge - Denver, CO',
-    with: 'Elephant Rifle | Gaythiest | Chew Thru',
-    link: 'https://dice.fm/event/pyqkyl-elephant-riflegaytheistalmanac-manchew-thru-23rd-may-skylark-lounge-denver-tickets?pid=3b6c903d'
-  },
-  {
-    key: 'SAT 6.28.25',
-    location: 'Afternoon show @ Mutiny Information Cafe - Englewood, CO',
-    with: 'The Nervous',
-    link: ''
-  },
-  {    
-    key: 'FRI 8.8.25',
-    location: 'Triple Nickel Tavern - Colorado Springs, CO',
-    with: 'Burning Sister',
-    link: ''
-  },
-  {    
-    key: 'SAT 8.9.25',
-    location: 'Goathead Collective - Taos, NM',
-    with: 'Burning Sister',
-    link: ''
-  },
-  {
-    key: '8.22 - 8.24.25',
-    location: 'GHOST CANYON FEST: Skylark Lounge & Hi-Dive - Denver, CO',
-    with: 'Glassing | Black Eyes | Cloakroom and many more',
-    link: 'https://dice.fm/event/l826bb-ghost-canyon-festival-aug-23-24-23rd-aug-hi-dive-denver-tickets'
-  }
+{   key: 'WED 10.01.25',
+   location: `John Henry's - Eugene, OR`,
+   with: 'Tiny Dino',
+   link: ''},
+   {   key: 'THU 10.02.25',
+    location: 'Slice Of Life Pizza = Tacoma, WA',
+    link: ''},
+    {   key: 'FRI 10.03.25',
+      location: 'The Kraken Bar & Lounge ',
+      with: 'Yellfire + Museum Of Light',
+      link: ''},
+      {   key: 'SAT 10.04.25',
+        location: 'The Alleyway - Portland, OR',
+        with: 'Ils + Local Fauna',
+        link: ''}
 ]
 
 
@@ -78,6 +63,36 @@ const shows = [
 //     with: 'Nästy Vömmit | Joust',
 //     link: ''
 //   },
+// {
+//   key: 'FRI 5.23.25',
+//   location: 'Skylark Lounge - Denver, CO',
+//   with: 'Elephant Rifle | Gaythiest | Chew Thru',
+//   link: 'https://dice.fm/event/pyqkyl-elephant-riflegaytheistalmanac-manchew-thru-23rd-may-skylark-lounge-denver-tickets?pid=3b6c903d'
+// },
+// {
+//   key: 'SAT 6.28.25',
+//   location: 'Afternoon show @ Mutiny Information Cafe - Englewood, CO',
+//   with: 'The Nervous',
+//   link: ''
+// },
+// {    
+//   key: 'FRI 8.8.25',
+//   location: 'Triple Nickel Tavern - Colorado Springs, CO',
+//   with: 'Burning Sister',
+//   link: ''
+// },
+// {    
+//   key: 'SAT 8.9.25',
+//   location: 'Goathead Collective - Taos, NM',
+//   with: 'Burning Sister',
+//   link: ''
+// },
+// {
+//   key: '8.22 - 8.24.25',
+//   location: 'GHOST CANYON FEST: Skylark Lounge & Hi-Dive - Denver, CO',
+//   with: 'Glassing | Black Eyes | Cloakroom and many more',
+//   link: 'https://dice.fm/event/l826bb-ghost-canyon-festival-aug-23-24-23rd-aug-hi-dive-denver-tickets'
+// }
 // ]
 
 const showMap = shows.map(show => (
