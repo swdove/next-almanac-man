@@ -33,7 +33,7 @@ const shows = [
   },
   {
     key: 'FRI 10.03.25',
-    location: 'The Kraken Bar & Lounge ',
+    location: 'The Kraken Bar & Lounge - Seattle, WA',
     with: 'Yellfire + Museum Of Light',
     link: ''
   },
