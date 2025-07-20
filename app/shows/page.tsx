@@ -8,21 +8,41 @@ export const metadata: Metadata = {
 }
 
 const shows = [
-{   key: 'WED 10.01.25',
-   location: `John Henry's - Eugene, OR`,
-   with: 'Tiny Dino',
-   link: ''},
-   {   key: 'THU 10.02.25',
+  {
+    key: 'WED 09.03.25',
+    location: `Hi-Dive - Denver, CO`,
+    with: 'Young Widows + Moon Pussy',
+    link: 'https://dice.fm/event/ry5pvq-young-widows-moon-pussy-almanac-man-3rd-sep-hi-dive-denver-tickets?lng=en-US'
+  },
+  {
+    key: 'SAT 09.27.25',
+    location: 'Mutiny Information Cafe = Englewood, CO',
+    with: '',
+    link: ''
+  },
+  {
+    key: 'WED 10.01.25',
+    location: `John Henry's - Eugene, OR`,
+    with: 'Tiny Dino',
+    link: ''
+  },
+  {
+    key: 'THU 10.02.25',
     location: 'Slice Of Life Pizza - Tacoma, WA',
-    link: ''},
-    {   key: 'FRI 10.03.25',
-      location: 'The Kraken Bar & Lounge ',
-      with: 'Yellfire + Museum Of Light',
-      link: ''},
-      {   key: 'SAT 10.04.25',
-        location: 'The Alleyway - Portland, OR',
-        with: 'Ils + Local Fauna',
-        link: ''}
+    link: ''
+  },
+  {
+    key: 'FRI 10.03.25',
+    location: 'The Kraken Bar & Lounge ',
+    with: 'Yellfire + Museum Of Light',
+    link: ''
+  },
+  {
+    key: 'SAT 10.04.25',
+    location: 'The Alleyway - Portland, OR',
+    with: 'Ils + Local Fauna',
+    link: ''
+  }
 ]
 
 
@@ -105,19 +125,19 @@ const showMap = shows.map(show => (
 ));
 
 export default function Shows() {
-    return (
-        <div className="container">
-          <Header />
-          <main>
-            <h1 className="text-3xl">SHOWS</h1>
-            <table className="table-auto">
-              <tbody>
-              {showMap}
-              </tbody>
-            </table>    
-          </main>
-  
-          <Footer />
-        </div>
-      )
-  }
+  return (
+    <div className="container">
+      <Header />
+      <main>
+        <h1 className="text-3xl">SHOWS</h1>
+        <table className="table-auto">
+          <tbody>
+            {showMap}
+          </tbody>
+        </table>
+      </main>
+
+      <Footer />
+    </div>
+  )
+}
