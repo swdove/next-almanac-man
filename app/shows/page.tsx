@@ -17,24 +17,25 @@ const shows = [
   {
     key: 'SAT 09.27.25',
     location: 'Tour Kickoff: Mutiny Information Cafe - Englewood, CO',
-    with: 'TBD',
+    with: 'Burning Sister',
     link: ''
   },
   {
     key: 'WED 10.01.25',
     location: `John Henry's - Eugene, OR`,
-    with: 'Tiny Dino',
+    with: 'Museum of Light + Tiny Dino',
     link: ''
   },
   {
     key: 'THU 10.02.25',
     location: 'Slice Of Life Pizza - Tacoma, WA',
+    with: 'Museum of Light + Uukwuuk',
     link: ''
   },
   {
     key: 'FRI 10.03.25',
     location: 'The Kraken Bar & Lounge - Seattle, WA',
-    with: 'Yellfire + Museum Of Light',
+    with: 'Museum of Light + Yellfire',
     link: ''
   },
   {
