@@ -43,6 +43,12 @@ const shows = [
     location: 'The Alleyway - Portland, OR',
     with: 'Ils + Local Fauna',
     link: ''
+  },
+    {
+    key: 'SUN 10.05.25',
+    location: 'Stay Gold - Oakland, CA',
+    with: 'Lorrrel + Strangelight',
+    link: ''
   }
 ]
 
