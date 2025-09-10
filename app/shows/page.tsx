@@ -9,12 +9,6 @@ export const metadata: Metadata = {
 
 const shows = [
   {
-    key: 'WED 09.03.25',
-    location: `Hi-Dive - Denver, CO`,
-    with: 'Young Widows + Moon Pussy',
-    link: 'https://dice.fm/event/ry5pvq-young-widows-moon-pussy-almanac-man-3rd-sep-hi-dive-denver-tickets?lng=en-US'
-  },
-  {
     key: 'SAT 09.27.25',
     location: 'Tour Kickoff: Mutiny Information Cafe - Englewood, CO',
     with: 'Burning Sister',
