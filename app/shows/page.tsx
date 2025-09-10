@@ -96,24 +96,12 @@ const shows = [
 //   with: 'The Nervous',
 //   link: ''
 // },
-// {    
-//   key: 'FRI 8.8.25',
-//   location: 'Triple Nickel Tavern - Colorado Springs, CO',
-//   with: 'Burning Sister',
-//   link: ''
-// },
-// {    
-//   key: 'SAT 8.9.25',
-//   location: 'Goathead Collective - Taos, NM',
-//   with: 'Burning Sister',
-//   link: ''
-// },
-// {
-//   key: '8.22 - 8.24.25',
-//   location: 'GHOST CANYON FEST: Skylark Lounge & Hi-Dive - Denver, CO',
-//   with: 'Glassing | Black Eyes | Cloakroom and many more',
-//   link: 'https://dice.fm/event/l826bb-ghost-canyon-festival-aug-23-24-23rd-aug-hi-dive-denver-tickets'
-// }
+  // {
+  //   key: 'WED 09.03.25',
+  //   location: `Hi-Dive - Denver, CO`,
+  //   with: 'Young Widows + Moon Pussy',
+  //   link: 'https://dice.fm/event/ry5pvq-young-widows-moon-pussy-almanac-man-3rd-sep-hi-dive-denver-tickets?lng=en-US'
+  // },
 // ]
 
 const showMap = shows.map(show => (
