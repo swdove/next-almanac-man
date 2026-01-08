@@ -9,41 +9,15 @@ export const metadata: Metadata = {
 
 const shows = [
   {
-    key: 'SAT 09.27.25',
-    location: 'Tour Kickoff: Mutiny Information Cafe - Englewood, CO',
-    with: 'Burning Sister',
-    link: ''
-  },
-  {
-    key: 'WED 10.01.25',
-    location: `John Henry's - Eugene, OR`,
-    with: 'Museum of Light + Tiny Dino',
-    link: ''
-  },
-  {
-    key: 'THU 10.02.25',
-    location: 'Slice Of Life Pizza - Tacoma, WA',
-    with: 'Museum of Light + Uukwuuk',
-    link: ''
-  },
-  {
-    key: 'FRI 10.03.25',
-    location: 'The Kraken Bar & Lounge - Seattle, WA',
-    with: 'Museum of Light + Yellfire',
-    link: ''
-  },
-  {
-    key: 'SAT 10.04.25',
-    location: 'The Alleyway - Portland, OR',
-    with: 'Ils + Local Fauna',
-    link: ''
-  },
-    {
-    key: 'SUN 10.05.25',
-    location: 'Stay Gold - Oakland, CA',
-    with: 'Lorrrel + Strangelight',
-    link: ''
+    key: "n-a",
+    location: "Hibernating for now"
   }
+  //   {
+  //   key: 'THU 2.5.26',
+  //   location: 'Hi-Dive - Denver, CO',
+  //   with: 'Buñuel w/Squid Pisser + Spiritual Poison',
+  //   link: 'https://dice.fm/event/8erlw2-buuel-squid-pisser-spiritual-poison-5th-feb-hi-dive-denver-tickets'
+  // }
 ]
 
 
@@ -102,6 +76,42 @@ const shows = [
   //   with: 'Young Widows + Moon Pussy',
   //   link: 'https://dice.fm/event/ry5pvq-young-widows-moon-pussy-almanac-man-3rd-sep-hi-dive-denver-tickets?lng=en-US'
   // },
+  //   {
+  //   key: 'SAT 09.27.25',
+  //   location: 'Tour Kickoff: Mutiny Information Cafe - Englewood, CO',
+  //   with: 'Burning Sister',
+  //   link: ''
+  // },
+  // {
+  //   key: 'WED 10.01.25',
+  //   location: `John Henry's - Eugene, OR`,
+  //   with: 'Museum of Light + Tiny Dino',
+  //   link: ''
+  // },
+  // {
+  //   key: 'THU 10.02.25',
+  //   location: 'Slice Of Life Pizza - Tacoma, WA',
+  //   with: 'Museum of Light + Uukwuuk',
+  //   link: ''
+  // },
+  // {
+  //   key: 'FRI 10.03.25',
+  //   location: 'The Kraken Bar & Lounge - Seattle, WA',
+  //   with: 'Museum of Light + Yellfire',
+  //   link: ''
+  // },
+  // {
+  //   key: 'SAT 10.04.25',
+  //   location: 'The Alleyway - Portland, OR',
+  //   with: 'Ils + Local Fauna',
+  //   link: ''
+  // },
+  //   {
+  //   key: 'SUN 10.05.25',
+  //   location: 'Stay Gold - Oakland, CA',
+  //   with: 'Lorrrel + Strangelight',
+  //   link: ''
+  // }
 // ]
 
 const showMap = shows.map(show => (
