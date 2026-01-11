@@ -8,16 +8,12 @@ export const metadata: Metadata = {
 }
 
 const shows = [
-  {
-    key: "n-a",
-    location: "Hibernating for now"
+    {
+    key: 'THU 2.5.26',
+    location: 'Hi-Dive - Denver, CO',
+    with: 'Buñuel w/Squid Pisser + Spiritual Poison',
+    link: 'https://dice.fm/event/8erlw2-buuel-squid-pisser-spiritual-poison-5th-feb-hi-dive-denver-tickets'
   }
-  //   {
-  //   key: 'THU 2.5.26',
-  //   location: 'Hi-Dive - Denver, CO',
-  //   with: 'Buñuel w/Squid Pisser + Spiritual Poison',
-  //   link: 'https://dice.fm/event/8erlw2-buuel-squid-pisser-spiritual-poison-5th-feb-hi-dive-denver-tickets'
-  // }
 ]
 
 
