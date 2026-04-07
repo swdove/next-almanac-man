@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 
 const shows = [
     {
-    key: 'THU 2.5.26',
+    key: 'SAT 4.18.26',
     location: 'Hi-Dive - Denver, CO',
-    with: 'Buñuel w/Squid Pisser + Spiritual Poison',
-    link: 'https://dice.fm/event/8erlw2-buuel-squid-pisser-spiritual-poison-5th-feb-hi-dive-denver-tickets'
+    with: 'Moon Pussy release show w/Honduh Daze + Suicide Cages',
+    link: 'https://dice.fm/event/3o6odg-moon-pussy-honduh-daze-suicide-cages-almanac-man-18th-apr-hi-dive-denver-tickets?_branch_match_id=1295191118949323816&utm_medium=partners_api&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1U9LsTQzTTVJSzI1TrSvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQC0cdMWOwAAAA%3D%3D'
   }
 ]
 
@@ -107,6 +107,12 @@ const shows = [
   //   location: 'Stay Gold - Oakland, CA',
   //   with: 'Lorrrel + Strangelight',
   //   link: ''
+  // },
+  //     {
+  //   key: 'THU 2.5.26',
+  //   location: 'Hi-Dive - Denver, CO',
+  //   with: 'Buñuel w/Squid Pisser + Spiritual Poison',
+  //   link: 'https://dice.fm/event/8erlw2-buuel-squid-pisser-spiritual-poison-5th-feb-hi-dive-denver-tickets'
   // }
 // ]
 
