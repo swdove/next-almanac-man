@@ -120,7 +120,7 @@ const showMap = shows.map(show => (
   <tr>
     <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.key}</td>
     <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.location}</td>
-    <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.with ? `w/${show.with}` : ''}</td>
+    <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.with ? `${show.with}` : ''}</td>
     <td className="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">{show.link ? <a href={show.link} target="_blank"><button>Link</button></a> : ''}</td>
   </tr>
 ));
